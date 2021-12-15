@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+    <link rel="stylesheet" href="fontawesome-free-5.8.1-web/css/fontawesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Quadratic Eqation</title>
+</head>
+<body>
+
+    <div class="container">
+       <div class="row">
+            <h1 class="header1 mt-2 text-white-50">Solving Quadratic Equation</h1>
+      
+        </div>
+        <!--input div-->
+       <div class="container ">
+           <div class="row">
+            <div class="col-md-3 ">
+               
+              </div>
+            <div class="col-md-6 mt-5 ">
+                <div class="card  text-dark-50 ">
+                <div class="card-body p-4">
+                  <!-- <h4 class="card-title text-center">Quadratic Formular</h4> -->
+                  <img src="image/download.png" alt="quadratic equation">
+                  <p class="card-text">Enter the values for a, b and c</p>
+                  <p id="demo"></p>
+                  <p id="demo2"></p>
+                  <form >
+                     
+                    <input type="text" class="form-control w-100 mt-3" placeholder="Enter Value for a" value='' id="text1"> 
+                    <input type="text" class="form-control w-100 mt-3"placeholder="Enter Value for b" value='' id="text2"> 
+                    <input type="text" class="form-control w-100 mt-3" placeholder="Enter Value for c" value='' id="text3">
+                  </form>
+                  <p class="text-danger mt-3">Please click Button twice </p>
+                </div>
+            </div>
+            <button class="btn btn-primary mt-3" onclick="sub()" id="btn1">Calculate</button> 
+              </div>
+              
+              <div class="col-md-3  ">
+                
+              </div>
+        </div>
+        </div>
+       
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
